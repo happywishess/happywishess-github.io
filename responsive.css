@@ -1,0 +1,23 @@
+@media only screen and (min-width : 480px) {
+ .home{
+	  width: 100%;
+	  height: auto;
+	   background: url(onam.jpg) no-repeat;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+}
+@media only screen and (max-width : 479px) {
+  .home {
+  	 width: 100%;
+	  height: auto;
+     background: url(onam1.jpg) no-repeat!important;
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   }
+}
+
