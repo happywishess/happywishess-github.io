@@ -12,9 +12,30 @@
 </head>
 <body>
 <!-- setup our canvas element -->
+<div class="adsoptimal-slot" style="width: 728px; height: 90px;  margin: auto;">
+	<script type='text/javascript'>
+(function(w) {
+var d=document,h=d.getElementsByTagName('head')[0],j=d.createElement('script'),k=d.createElement('script');
+j.setAttribute('src','//cdn.adsoptimal.com/advertisement/settings/30922.js');
+k.setAttribute('src','//cdn.adsoptimal.com/advertisement/manual.js');
+h.appendChild(j); h.appendChild(k);
+})(window);
+</script>
+</div>
 <div class="home">
 <canvas id="canvas">Canvas is not supported in your browser.</canvas>
 </div>
+<script type='text/javascript'>
+(function(w) {
+if(navigator.userAgent.match(/iPhone|iPod|iPad|Android/i)==null)return;
+var d=document,h=d.getElementsByTagName('head')[0],s=d.createElement('style'),j=d.createElement('script'),k=d.createElement('script');
+s.setAttribute('rel','mw-page-block');s.innerHTML='body > * {display:none !important}';
+j.setAttribute('src','//cdn.adsoptimal.com/advertisement/settings/30922.js');
+k.setAttribute('src','//cdn.adsoptimal.com/advertisement/dispatcher.js');
+j.onerror=k.onerror=function(){h.removeChild(s);h.removeChild(j);h.removeChild(k);};
+h.appendChild(s);h.appendChild(j);h.appendChild(k);
+})(window);
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="script.js"></script>
 </body>
